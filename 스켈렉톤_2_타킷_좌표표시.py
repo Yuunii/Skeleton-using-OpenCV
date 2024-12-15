@@ -1,16 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Dec  2 21:04:21 2024
-Skeleton_2
-
-@author: Jinwoo
-"""
-
-#먼저 아나콘다 아나콘다 프롬프트 창을 실행시키고,
-# pip install mediapipe 를 기입하고 인스톨시킨다.
-# 인스톨이 끝나면 아래 소스코드 15행과 같이 
-# import mediapipe as mp 를 기입한다.
-
 import cv2
 import mediapipe as mp
 

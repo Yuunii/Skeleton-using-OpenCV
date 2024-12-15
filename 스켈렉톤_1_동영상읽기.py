@@ -1,12 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Dec  2 20:57:55 2024
-
-Skeleton_1
-
-@author: Jinwoo
-"""
-
 import cv2
 
 

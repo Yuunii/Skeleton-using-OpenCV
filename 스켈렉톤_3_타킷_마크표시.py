@@ -1,12 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Dec  2 21:16:11 2024
-
-Skeleton_3
-
-@author: Jinwoo
-"""
-
 import cv2
 import mediapipe as mp
 
@@ -25,7 +16,7 @@ while True:
     results = pose.process(img)
     print(results.pose_landmarks)
     
-    mp_draw.draw_landmarks(img, results.pose_landmarks)
+    mp_draw.draw_landmarks(img, results.pose_landmarks,mp_pose.POSE_CONNECTIONS)
     
     
     cv2.imshow("Pose Estimation", img)
